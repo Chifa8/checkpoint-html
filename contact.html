@@ -2,168 +2,28 @@
 <html>
     <head>
         <title>    Contact </title>
-        <style>
-          {font-family: Arial, Helvetica, sans-serif;}
-
-.navbar {
-  width: 100%;
-  background-color: #555;
-  overflow: auto;
-}
-
-.navbar a {
-  float: left;
-  padding: 12px;
-  color: white;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.navbar a:hover {
-  background-color: #000;
-}
-
-.active {
-  background-color: #04AA6D;
-}
-
-@media screen and (max-width: 500px) {
-  .navbar a {
-    float: none;
-    display: block;
-  }
-}
-.all-browsers {
-    margin: 0;
-    padding: 5px;
-    background-color: lightgray;
-  }
-  
-  .all-browsers > h1, .browser {
-    margin: 10px;
-    padding: 5px;
-  }
-  
-  .browser {
-    background: white;
-  }
-  
-  .browser > h2, p {
-    margin: 4px;
-    font-size: 90%;
-  }
-  .all-browsers {
-    margin: 0;
-    padding: 5px;
-    background-color: lightgray;
-  }
-  
-  .all-browsers > h1, .browser {
-    margin: 10px;
-    padding: 5px;
-  }
-  
-  .browser {
-    background: white;
-  }
-  
-  .browser > h2, p {
-    margin: 4px;
-    font-size: 90%;
-  }
-  
-            body {font-family: Arial, Helvetica, sans-serif;}
-            * {box-sizing: border-box;}
-            
-            input[type=text], select, textarea {
-              width: 100%;
-              padding: 12px;
-              border: 1px solid #ccc;
-              border-radius: 4px;
-              box-sizing: border-box;
-              margin-top: 6px;
-              margin-bottom: 16px;
-              resize: vertical;
-            }
-            
-            input[type=submit] {
-              background-color: #04AA6D;
-              color: white;
-              padding: 12px 20px;
-              border: none;
-              border-radius: 4px;
-              cursor: pointer;
-            }
-            
-            input[type=submit]:hover {
-              background-color: #45a049;
-            }
-            
-            .container {
-              border-radius: 5px;
-              background-color: #f2f2f2;
-              padding: 20px;
-            }
-            .all-browsers {
-    margin: 0;
-    padding: 5px;
-    background-color: lightgray;
-  }
-  
-  .all-browsers > h1, .browser {
-    margin: 10px;
-    padding: 5px;
-  }
-  
-  .browser {
-    background: white;
-  }
-  
-  .browser > h2, p {
-    margin: 4px;
-    font-size: 90%;
-  }
-  
-  footer {
-    text-align: center;
-    padding: 3px;
-    background-color: DarkSalmon;
-    color: white;
-  }
-            </style>
+        <link rel="stylesheet" href="styles.css">
     </head>
-    <body>
+    <body class="body" >
+  <div class="navbar">
+    <a href="homepage.html"><i class="fa fa-fw fa-home"></i> Home</a> 
+    <a href="about.html"></i> About</a> 
+    <a href="skills.html"></i> Skills </a>
+    <a href="Experiences.html"></i> Experiences </a>
+    <a href="contact.html"></i> Contact </a>
+  </div>
 
-      <div class="navbar">
-        <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a> 
-        <a href="about.html"></i> About</a> 
-        <a href="skills.html"></i> Skills </a>
-        <a href="Experiences.html"></i> Experiences </a>
-        <a href="contact.html"></i> Contact </a>
-      </div>
-
-        <h3> Contact us </h3>
-
-        <div class="container">
-          <form>
-            <label for="fname">First Name</label>
-            <input type="text"  name="firstname" placeholder="Your name..">
-        
-            <label for="lname">Last Name</label>
-            <input type="text"  name="lastname" placeholder="Your last name..">
-        
-           
-        
-            <label for="subject">Subject</label>
-            <textarea name="subject" placeholder="Write something.." style="height:200px"></textarea>
-        
-            <input type="submit" value="Submit">
-          </form>
-        </div>
+      
         <footer>
-          <p>Email<br>
-          <a href=>chtioui8chifa@gmail.com</a></p>
-        </footer>
+          <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+          <ul class="list-inline">
+              <li class="list-inline-item"><a href="#">Home</a></li>
+              <li class="list-inline-item"><a href="#">About</a></li>
+              <li class="list-inline-item"><a href="#">Skills</a></li>
+              <li class="list-inline-item"><a href="#">Experiences</a></li>
+          </ul>
+          <p class="copyright">CHTIOUI Chifa © 2021</p>
+      </footer>
     </body>
 
 </html>
